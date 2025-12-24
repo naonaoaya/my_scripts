@@ -25,7 +25,7 @@ def analyze_file(filepath):
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
-            lines = content.split('\n')
+            lines = content.splitlines()
             words = content.split()
             
             stats = {

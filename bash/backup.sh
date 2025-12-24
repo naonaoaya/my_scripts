@@ -26,9 +26,7 @@ FILENAME=$(basename "$SOURCE_FILE")
 BACKUP_FILE="$DEST_DIR/${FILENAME}.${TIMESTAMP}.bak"
 
 # Copy the file
-cp "$SOURCE_FILE" "$BACKUP_FILE"
-
-if [ $? -eq 0 ]; then
+if cp "$SOURCE_FILE" "$BACKUP_FILE"; then
     echo "Backup created successfully: $BACKUP_FILE"
 else
     echo "Error: Backup failed"
