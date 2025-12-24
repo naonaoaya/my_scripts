@@ -32,7 +32,7 @@ def analyze_file(filepath):
                 'lines': len(lines),
                 'words': len(words),
                 'chars': len(content),
-                'chars_no_spaces': len(content.replace(' ', '').replace('\n', '').replace('\t', '')),
+                'chars_no_spaces': sum(1 for char in content if char not in ' \n\t'),
                 'size': filepath.stat().st_size
             }
             
