@@ -1,10 +1,11 @@
 # myflight24
 DOMAIN-SUFFIX,maxcdn.bootstrapcdn.com
 DOMAIN-SUFFIX,my.flightradar24.com
-#
+#help
 DOMAIN-SUFFIX,greasyfork.org
 #webs
 DOMAIN-KEYWORD,v2ex
+DOMAIN-SUFFIX,hostloc.com
 # mail
 DOMAIN,mail-api.proton.me
 DOMAIN-SUFFIX,spankbang.com
