@@ -6,6 +6,8 @@ DOMAIN-SUFFIX,greasyfork.org
 #webs
 DOMAIN-KEYWORD,v2ex
 DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,4khd.com
+DOMAIN-SUFFIX,terabox.com
 # mail
 DOMAIN,mail-api.proton.me
 DOMAIN-SUFFIX,spankbang.com
